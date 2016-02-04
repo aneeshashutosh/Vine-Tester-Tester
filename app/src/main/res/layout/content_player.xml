@@ -6,8 +6,29 @@
 
     <VideoView
         android:id="@+id/video_player"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/like"
         android:layout_width="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/video_player"
+        android:background="#000000"
+        android:text="LIKE"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/video_player"
+        android:background="#000000"
+        android:text="FAV"
+        android:textColor="#FFFFFF" />
 
 </RelativeLayout>
